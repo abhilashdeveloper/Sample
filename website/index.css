@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-layout{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bgcolor{
+    background-color: #92D13A;
+}
+.headermain{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style-type: none;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.mainbox{
+    display: flex;
+    justify-content: space-between;
+}
+.logoimage{
+    margin-top: 30px;
+}
+.bestplace{
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 20px;
+}
+.Unique{
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+    font-size: 40px;
+}
+.loremtext{
+    text-align: center;
+    font-size: 23px;
+    padding: 0px 0px 30px 0px;
+}
+.centerbtn{
+    display: flex;
+    justify-content: center;
+}
+.centerbtn button{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 15px;
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+
+@media screen and (max-width:500px) {
+
+    li{
+        margin-right: 5px;
+        font-size: 10px;
+    }
+    
+}
+
+@media (min-width:700px) and (max-width:850px){
+    li{
+        margin-right: 20px;
+    }
+}

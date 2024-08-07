@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: black;
+}
+.sub1{
+    width: 30%;
+    height: 200px;
+    position: relative;
+    animation-name: abhi;
+    background-color: red;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes abhi {
+    from{
+        top: 0;
+        left: 0;
+    }
+    to{
+        top: 0;
+        left: 600px;
+    }
+    
+}
+.sub2{
+    width: 30%;
+    height: 200px;
+    position: relative;
+    animation-name: abhilash;
+    background-color: aqua;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes abhilash {
+    from{
+        top: 0;
+        left: 0;
+    }
+    to{
+        top: 0;
+        left: 600px;
+    }
+    
+}
+.sub3{
+    width: 30%;
+    height: 200px;
+    position: relative;
+    animation-name: abhilashmohapatra;
+    background-color: yellow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes abhilashmohapatra {
+    from{
+        top: 0;
+        left: 0;
+    }
+    to{
+        top: 0;
+        left: 600px;
+    }
